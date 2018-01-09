@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
   55 001a 01       		.byte	1
   56 001b 40       		.byte	64
   57 001c 03       		.byte	3
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 2
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 2
 
 
   58 001d 43       		.byte	67
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  112 0053 80       		.byte	-128
  113 0054 08       		.byte	8
  114 0055 08       		.byte	8
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 3
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 3
 
 
  115 0056 0B       		.byte	11
@@ -144,12 +144,12 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  135 006a 00       		.byte	0
  136 006b 00       		.byte	0
  137 006c 00       		.byte	0
- 138 006d 7F       		.byte	127
- 139 006e 7F       		.byte	127
+ 138 006d 80       		.byte	-128
+ 139 006e 80       		.byte	-128
  140 006f 00       		.byte	0
  141 0070 00       		.byte	0
  142 0071 00       		.byte	0
- 143 0072 00       		.byte	0
+ 143 0072 80       		.byte	-128
  144 0073 00       		.byte	0
  145 0074 40       		.byte	64
  146 0075 00       		.byte	0
@@ -172,13 +172,13 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  163 0086 00       		.byte	0
  164 0087 00       		.byte	0
  165 0088 00       		.byte	0
- 166 0089 40       		.byte	64
- 167 008a 40       		.byte	64
+ 166 0089 7F       		.byte	127
+ 167 008a 7F       		.byte	127
  168 008b 00       		.byte	0
  169 008c 00       		.byte	0
  170 008d 00       		.byte	0
- 171 008e 40       		.byte	64
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 4
+ 171 008e 00       		.byte	0
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 4
 
 
  172 008f 00       		.byte	0
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  222 0004 0400     		.2byte	0x4
  223 0006 00000000 		.4byte	.Ldebug_abbrev0
  224 000a 04       		.byte	0x4
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 5
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 5
 
 
  225 000b 01       		.uleb128 0x1
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  279 0074 18       		.byte	0x18
  280 0075 24000000 		.4byte	0x24
  281 0079 05       		.uleb128 0x5
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 6
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 6
 
 
  282 007a 90000000 		.4byte	0x90
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  336 00f5 FF       		.byte	0xff
  337 00f6 00       		.byte	0
  338 00f7 08       		.uleb128 0x8
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 7
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 7
 
 
  339 00f8 68010000 		.4byte	.LASF15
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  393 0019 00       		.byte	0
  394 001a 03       		.uleb128 0x3
  395 001b 16       		.uleb128 0x16
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 8
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 8
 
 
  396 001c 00       		.byte	0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  450 0052 3B       		.uleb128 0x3b
  451 0053 0B       		.uleb128 0xb
  452 0054 49       		.uleb128 0x49
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 9
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 9
 
 
  453 0055 13       		.uleb128 0x13
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  484      31363036 
  485 009a 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
  485      20726576 
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 10
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 10
 
 
  485      6973696F 
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 1
  504      776F6E76 
  504      6C00
  505              	.LASF11:
-ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccKIK4Po.s 			page 11
+ARM GAS  C:\Users\wenzelj\AppData\Local\Temp\ccwEVDai.s 			page 11
 
 
  506 018b 73697A65 		.ascii	"sizetype\000"

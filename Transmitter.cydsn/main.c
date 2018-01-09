@@ -127,6 +127,9 @@ int main()
                         }
                         for(uint8 k=0; k<8; k++){
                             //Transmit bits with proper timing
+                            TX_Write(char_buffer[k]);
+                            CyDelayUs(500);
+                            TX_Write(0);
                         }
                     }
                     
