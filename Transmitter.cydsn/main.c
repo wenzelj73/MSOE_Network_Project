@@ -83,7 +83,13 @@ int main()
 
     /* Start USBFS operation with 3-V operation. */
     USB_Start(USBFS_DEVICE, USB_3V_OPERATION);
-    
+    //Confirm Pin Operation Outside of USBUART
+    /*for(;;){
+        TX_Write(1);
+        CyDelayUs(500);
+        TX_Write(0);
+        CyDelayUs(500);
+    }*/
     for(;;)
     {
         /* Host can send double SET_INTERFACE request. */
@@ -114,10 +120,10 @@ int main()
                     {
                     }
                     //Get the characters individually, place in cha
-                    for(uint8 i=0; i>count; i++){
+                    for(uint8 i=0; i<count; i++){
                         uint8 cha = buffer[i];
                         //For each possible bit, if it is the first bit it is always a 1
-                        for(uint8 j=0; j<8; i++){
+                        for(uint8 j=0; j<8; j++){
                             if(j==0){
                                 char_buffer[j] = 1;    
                             }else{
@@ -130,6 +136,7 @@ int main()
                             TX_Write(char_buffer[k]);
                             CyDelayUs(500);
                             TX_Write(0);
+                            CyDelayUs(500);
                         }
                     }
                     
