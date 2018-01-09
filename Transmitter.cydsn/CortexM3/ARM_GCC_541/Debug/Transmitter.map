@@ -1498,74 +1498,74 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x7028
+.debug_info     0x00000000     0x7043
  *(.debug_info .gnu.linkonce.wi.*)
- .debug_info    0x00000000      0x442 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_info    0x00000442      0x4f1 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_info    0x00000933      0x134 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_info    0x00000a67      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_info    0x00000e22      0x995 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
- .debug_info    0x000017b7      0xaf7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
- .debug_info    0x000022ae      0x655 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
- .debug_info    0x00002903      0x254 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
- .debug_info    0x00002b57      0x2e4 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
- .debug_info    0x00002e3b      0xb26 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
- .debug_info    0x00003961       0xed .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
- .debug_info    0x00003a4e      0x174 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
- .debug_info    0x00003bc2     0x1374 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
- .debug_info    0x00004f36      0xa2a .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
- .debug_info    0x00005960      0x715 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
- .debug_info    0x00006075       0x91 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
- .debug_info    0x00006106      0x1de .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
- .debug_info    0x000062e4      0x2a3 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
- .debug_info    0x00006587      0x5b8 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
- .debug_info    0x00006b3f      0x4e9 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
+ .debug_info    0x00000000      0x45d .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_info    0x0000045d      0x4f1 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_info    0x0000094e      0x134 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_info    0x00000a82      0x3bb .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_info    0x00000e3d      0x995 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
+ .debug_info    0x000017d2      0xaf7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
+ .debug_info    0x000022c9      0x655 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
+ .debug_info    0x0000291e      0x254 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
+ .debug_info    0x00002b72      0x2e4 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
+ .debug_info    0x00002e56      0xb26 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
+ .debug_info    0x0000397c       0xed .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
+ .debug_info    0x00003a69      0x174 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
+ .debug_info    0x00003bdd     0x1374 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
+ .debug_info    0x00004f51      0xa2a .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
+ .debug_info    0x0000597b      0x715 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
+ .debug_info    0x00006090       0x91 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
+ .debug_info    0x00006121      0x1de .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
+ .debug_info    0x000062ff      0x2a3 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
+ .debug_info    0x000065a2      0x5b8 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
+ .debug_info    0x00006b5a      0x4e9 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
 
-.debug_abbrev   0x00000000     0x1abd
+.debug_abbrev   0x00000000     0x1aca
  *(.debug_abbrev)
- .debug_abbrev  0x00000000      0x114 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_abbrev  0x00000114      0x1fe .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_abbrev  0x00000312       0x5d .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_abbrev  0x0000036f      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_abbrev  0x00000557      0x215 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
- .debug_abbrev  0x0000076c      0x245 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
- .debug_abbrev  0x000009b1      0x189 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
- .debug_abbrev  0x00000b3a      0x11b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
- .debug_abbrev  0x00000c55      0x108 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
- .debug_abbrev  0x00000d5d      0x20a .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
- .debug_abbrev  0x00000f67       0x9b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
- .debug_abbrev  0x00001002       0x90 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
- .debug_abbrev  0x00001092      0x254 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
- .debug_abbrev  0x000012e6      0x1ab .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
- .debug_abbrev  0x00001491      0x157 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
- .debug_abbrev  0x000015e8       0x14 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
- .debug_abbrev  0x000015fc       0xe1 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
- .debug_abbrev  0x000016dd       0xb4 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
- .debug_abbrev  0x00001791      0x198 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
- .debug_abbrev  0x00001929      0x194 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
+ .debug_abbrev  0x00000000      0x121 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_abbrev  0x00000121      0x1fe .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_abbrev  0x0000031f       0x5d .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_abbrev  0x0000037c      0x1e8 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_abbrev  0x00000564      0x215 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
+ .debug_abbrev  0x00000779      0x245 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
+ .debug_abbrev  0x000009be      0x189 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
+ .debug_abbrev  0x00000b47      0x11b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
+ .debug_abbrev  0x00000c62      0x108 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
+ .debug_abbrev  0x00000d6a      0x20a .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
+ .debug_abbrev  0x00000f74       0x9b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
+ .debug_abbrev  0x0000100f       0x90 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
+ .debug_abbrev  0x0000109f      0x254 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
+ .debug_abbrev  0x000012f3      0x1ab .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
+ .debug_abbrev  0x0000149e      0x157 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
+ .debug_abbrev  0x000015f5       0x14 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
+ .debug_abbrev  0x00001609       0xe1 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
+ .debug_abbrev  0x000016ea       0xb4 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
+ .debug_abbrev  0x0000179e      0x198 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
+ .debug_abbrev  0x00001936      0x194 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
 
-.debug_line     0x00000000     0x28e3
+.debug_line     0x00000000     0x28ef
  *(.debug_line)
- .debug_line    0x00000000      0x23f .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_line    0x0000023f      0x1d2 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_line    0x00000411      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x00000552      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_line    0x00000786      0x2cc .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
- .debug_line    0x00000a52      0x2e6 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
- .debug_line    0x00000d38      0x215 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
- .debug_line    0x00000f4d       0xda .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
- .debug_line    0x00001027       0xfe .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
- .debug_line    0x00001125      0x3d6 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
- .debug_line    0x000014fb       0x6b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
- .debug_line    0x00001566       0xb7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
- .debug_line    0x0000161d      0x816 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
- .debug_line    0x00001e33      0x367 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
- .debug_line    0x0000219a      0x1dc .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
- .debug_line    0x00002376       0x66 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
- .debug_line    0x000023dc       0x89 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
- .debug_line    0x00002465       0x59 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
- .debug_line    0x000024be      0x1e9 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
- .debug_line    0x000026a7      0x23c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
+ .debug_line    0x00000000      0x24b .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x0000024b      0x1d2 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x0000041d      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x0000055e      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x00000792      0x2cc .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
+ .debug_line    0x00000a5e      0x2e6 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
+ .debug_line    0x00000d44      0x215 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
+ .debug_line    0x00000f59       0xda .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
+ .debug_line    0x00001033       0xfe .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
+ .debug_line    0x00001131      0x3d6 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
+ .debug_line    0x00001507       0x6b .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
+ .debug_line    0x00001572       0xb7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
+ .debug_line    0x00001629      0x816 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
+ .debug_line    0x00001e3f      0x367 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
+ .debug_line    0x000021a6      0x1dc .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
+ .debug_line    0x00002382       0x66 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyBootAsmGnu.o)
+ .debug_line    0x000023e8       0x89 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
+ .debug_line    0x00002471       0x59 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
+ .debug_line    0x000024ca      0x1e9 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
+ .debug_line    0x000026b3      0x23c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
 
 .debug_frame    0x00000000     0x2114
  *(.debug_frame)
@@ -1611,45 +1611,45 @@ END GROUP
  .debug_frame   0x00002098       0x5c c:/program files (x86)/cypress/psoc creator/4.1/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-reent.o)
  .debug_frame   0x000020f4       0x20 c:/program files (x86)/cypress/psoc creator/4.1/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-nano-msizer.o)
 
-.debug_str      0x00000000     0x2344
+.debug_str      0x00000000     0x2349
  *(.debug_str)
- .debug_str     0x00000000      0x2ad .\CortexM3\ARM_GCC_541\Debug\main.o
-                                0x2f5 (size before relaxing)
- .debug_str     0x000002ad      0x174 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_str     0x00000000      0x2b2 .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x301 (size before relaxing)
+ .debug_str     0x000002b2      0x174 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
                                 0x310 (size before relaxing)
- .debug_str     0x00000421       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_str     0x00000426       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                                 0x1e5 (size before relaxing)
- .debug_str     0x000004a0      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_str     0x000004a5      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
                                 0x30b (size before relaxing)
- .debug_str     0x000005e4      0x3cb .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
+ .debug_str     0x000005e9      0x3cb .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB.o)
                                 0x5cb (size before relaxing)
- .debug_str     0x000009af      0x3c7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
+ .debug_str     0x000009b4      0x3c7 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cdc.o)
                                 0x6fe (size before relaxing)
- .debug_str     0x00000d76      0x231 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
+ .debug_str     0x00000d7b      0x231 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_drv.o)
                                 0x5a1 (size before relaxing)
- .debug_str     0x00000fa7       0x68 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
+ .debug_str     0x00000fac       0x68 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_episr.o)
                                 0x2b4 (size before relaxing)
- .debug_str     0x0000100f       0x9e .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
+ .debug_str     0x00001014       0x9e .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_pm.o)
                                 0x2c1 (size before relaxing)
- .debug_str     0x000010ad      0x22c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
+ .debug_str     0x000010b2      0x22c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_std.o)
                                 0x704 (size before relaxing)
- .debug_str     0x000012d9       0x21 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
+ .debug_str     0x000012de       0x21 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_vnd.o)
                                 0x1e2 (size before relaxing)
- .debug_str     0x000012fa       0x8c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
+ .debug_str     0x000012ff       0x8c .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_Dp.o)
                                 0x226 (size before relaxing)
- .debug_str     0x00001386      0x7db .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
+ .debug_str     0x0000138b      0x7db .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyLib.o)
                                 0xa48 (size before relaxing)
- .debug_str     0x00001b61      0x365 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
+ .debug_str     0x00001b66      0x365 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(cyPm.o)
                                 0x734 (size before relaxing)
- .debug_str     0x00001ec6      0x134 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
+ .debug_str     0x00001ecb      0x134 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(LCD.o)
                                 0x32c (size before relaxing)
- .debug_str     0x00001ffa       0x21 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
+ .debug_str     0x00001fff       0x21 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_cls.o)
                                 0x291 (size before relaxing)
- .debug_str     0x0000201b       0xe8 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
+ .debug_str     0x00002020       0xe8 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(USB_descr.o)
                                 0x326 (size before relaxing)
- .debug_str     0x00002103      0x195 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
+ .debug_str     0x00002108      0x195 .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CyFlash.o)
                                 0x3a2 (size before relaxing)
- .debug_str     0x00002298       0xac .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
+ .debug_str     0x0000229d       0xac .\CortexM3\ARM_GCC_541\Debug\Transmitter.a(CySpc.o)
                                 0x32b (size before relaxing)
 
 .debug_loc      0x00000000     0x3148

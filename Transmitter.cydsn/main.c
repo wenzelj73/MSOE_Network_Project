@@ -40,6 +40,7 @@
 * endpoints.
 */
 #define USB_BUFFER_SIZE (64u)
+#define CHAR_BUFFER_SIZE (8u)
 #define LINE_STR_LENGTH     (20u)
 
 char8* parity[] = {"None", "Odd", "Even", "Mark", "Space"};
@@ -69,6 +70,7 @@ int main()
 {
     uint16 count;
     uint8 buffer[USB_BUFFER_SIZE];
+    uint8 char_buffer[CHAR_BUFFER_SIZE];
     
 #if (CY_PSOC3 || CY_PSOC5LP)
     uint8 state;
@@ -79,8 +81,8 @@ int main()
     
     CyGlobalIntEnable;
 
-    /* Start USBFS operation with 5-V operation. */
-    USB_Start(USBFS_DEVICE, USB_5V_OPERATION);
+    /* Start USBFS operation with 3-V operation. */
+    USB_Start(USBFS_DEVICE, USB_3V_OPERATION);
     
     for(;;)
     {
@@ -111,7 +113,23 @@ int main()
                     while (0u == USB_CDCIsReady())
                     {
                     }
-
+                    //Get the characters individually, place in cha
+                    for(uint8 i=0; i>count; i++){
+                        uint8 cha = buffer[i];
+                        //For each possible bit, if it is the first bit it is always a 1
+                        for(uint8 j=0; j<8; i++){
+                            if(j==0){
+                                char_buffer[j] = 1;    
+                            }else{
+                                //Otherwise, make a mask based on our position in the for loop and get 0 or 1
+                                char_buffer[j] = cha & (1 << (7-j));    
+                            }
+                        }
+                        for(uint8 k=0; k<8; k++){
+                            //Transmit bits with proper timing
+                        }
+                    }
+                    
                     /* Send data back to host. */
                     USB_PutData(buffer, count);
 
